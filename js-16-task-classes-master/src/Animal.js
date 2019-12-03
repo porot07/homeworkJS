@@ -5,12 +5,8 @@ export default class Animal {
     this.foodLike = foodLike;
   }
 
-  speak() {
-    return `${this.name} says`;
-  }
-
   getFavoriteFood() {
-    return `${this.name} likes`;
+    return `${this.name} likes ${this.foodLike}`;
   }
 
   getName() {
