@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskList 1`] = `"<ul class=\\"list-group-flush\\"><li class=\\"list-group-item bg-primary\\"><h5>Learn React</h5><p>I should learn react</p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li><li class=\\"list-group-item bg-success\\"><h5><s>Learn JS</s></h5><p><s>Yay!</s></p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li><li class=\\"list-group-item bg-success\\"><h5><s>Learn HTML</s></h5><p><s>DONE!</s></p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li><li class=\\"list-group-item bg-primary\\"><h5>Learn Redux</h5><p>Should learn after React</p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li></ul>"`;
+
+exports[`TaskList 2`] = `"<li class=\\"list-group-item bg-success\\"><h5><s>Learn React</s></h5><p><s>I should learn react</s></p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li>"`;
+
+exports[`TaskList 3`] = `"<li class=\\"list-group-item bg-success\\"><h5><s>Learn React</s></h5><p><s>I should learn react</s></p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li>"`;
+
+exports[`TaskList 4`] = `"<li class=\\"list-group-item bg-primary\\"><h5>Learn React</h5><p>I should learn react</p><button type=\\"button\\" class=\\"btn btn-info\\">Завершить задачу</button><button type=\\"button\\" class=\\"btn btn-danger\\">Сделать активной</button></li>"`;

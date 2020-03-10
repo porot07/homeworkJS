@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App 1`] = `"<div class=\\"container\\"><div class=\\"row\\"><div class=\\"col-12\\"><form><div class=\\"input-group\\"><input type=\\"text\\" name=\\"title\\" class=\\"form-control\\" value=\\"\\"><div class=\\"input-group-append\\"><button type=\\"submit\\" class=\\"btn btn-primary\\">Опубликовать</button></div></div></form></div><div class=\\"col-12\\"><ul class=\\"list-group-flush\\"></ul></div></div></div>,"`;
+
+exports[`App 2`] = `"<div class=\\"container\\"><div class=\\"row\\"><div class=\\"col-12\\"><form><div class=\\"input-group\\"><input type=\\"text\\" name=\\"title\\" class=\\"form-control\\" value=\\"\\"><div class=\\"input-group-append\\"><button type=\\"submit\\" class=\\"btn btn-primary\\">Опубликовать</button></div></div></form></div><div class=\\"col-12\\"><ul class=\\"list-group-flush\\"><li class=\\"list-group-item\\"><h3>Hello, World!</h3><button type=\\"button\\" class=\\"btn btn-danger\\">Удалить</button></li><li class=\\"list-group-item\\"><h3>Test</h3><button type=\\"button\\" class=\\"btn btn-danger\\">Удалить</button></li></ul></div></div></div>,"`;

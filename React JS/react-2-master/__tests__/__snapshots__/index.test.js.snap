@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add one task 1`] = `
+"
+  <div id=\\"container\\" class=\\"container\\">
+    <div class=\\"row justify-content-center\\">
+      <div class=\\"col-md-6\\">
+        <form class=\\"form-group-inline\\">
+          <div class=\\"input-group\\">
+            <input type=\\"text\\" class=\\"form-control\\" name=\\"task\\">
+            <div class=\\"input-group-append\\">
+              <button type=\\"submit\\" class=\\"btn btn-primary\\">Add</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class=\\"row justify-content-center\\">
+      <div class=\\"col-md-6\\">
+        <ul id=\\"tasks\\" class=\\"list-group\\"><li class=\\"list-group-item\\">testing</li></ul>
+      </div>
+    </div>
+  </div>
+
+"
+`;
+
+exports[`check initial HTML 1`] = `
+"
+  <div id=\\"container\\" class=\\"container\\">
+    <div class=\\"row justify-content-center\\">
+      <div class=\\"col-md-6\\">
+        <form class=\\"form-group-inline\\">
+          <div class=\\"input-group\\">
+            <input type=\\"text\\" class=\\"form-control\\" name=\\"task\\">
+            <div class=\\"input-group-append\\">
+              <button type=\\"submit\\" class=\\"btn btn-primary\\">Add</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class=\\"row justify-content-center\\">
+      <div class=\\"col-md-6\\">
+        <ul id=\\"tasks\\" class=\\"list-group\\"></ul>
+      </div>
+    </div>
+  </div>
+
+"
+`;
+
+exports[`tasks queue 1`] = `
+<ul
+  class="list-group"
+  id="tasks"
+>
+  <li
+    class="list-group-item"
+  >
+    be a pro
+  </li>
+  <li
+    class="list-group-item"
+  >
+    learn react
+  </li>
+  <li
+    class="list-group-item"
+  >
+    learn js
+  </li>
+  <li
+    class="list-group-item"
+  >
+    testing
+  </li>
+</ul>
+`;

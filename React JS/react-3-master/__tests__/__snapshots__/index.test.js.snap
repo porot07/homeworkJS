@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskList 1`] = `
+<ul
+  className="list-group-flush"
+>
+  <li
+    className="list-group-item bg-primary"
+  >
+    <h5>
+      Learn React
+    </h5>
+    <p>
+      I should learn react
+    </p>
+  </li>
+  <li
+    className="list-group-item bg-success"
+  >
+    <h5>
+      <s>
+        Learn JS
+      </s>
+    </h5>
+    <p>
+      <s>
+        Yay!
+      </s>
+    </p>
+  </li>
+  <li
+    className="list-group-item bg-success"
+  >
+    <h5>
+      <s>
+        Learn HTML
+      </s>
+    </h5>
+    <p>
+      <s>
+        DONE!
+      </s>
+    </p>
+  </li>
+  <li
+    className="list-group-item bg-primary"
+  >
+    <h5>
+      Learn Redux
+    </h5>
+    <p>
+      Should learn after React
+    </p>
+  </li>
+</ul>
+`;
