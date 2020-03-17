@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+import { run } from '..';
+
+let firstNum;
+let secondNum;
+const minus = [
+  { question: `Сколько будет ${firstNum = Math.round(Math.random() * (10 - 1) + 1)} - ${secondNum = Math.round(Math.random() * (10 - 1) + 1)}\n`, answer: `${firstNum - secondNum}` },
+  { question: `Сколько будет ${firstNum = Math.round(Math.random() * (10 - 1) + 1)} - ${secondNum = Math.round(Math.random() * (10 - 1) + 1)}\n`, answer: `${firstNum - secondNum}` },
+  { question: `Сколько будет ${firstNum = Math.round(Math.random() * (10 - 1) + 1)} - ${secondNum = Math.round(Math.random() * (10 - 1) + 1)}\n`, answer: `${firstNum - secondNum}` },
+];
+run(minus);

@@ -1,0 +1,31 @@
+{
+  "name": "seo-math-game",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist --source-maps inline",
+    "babel-node": "npx babel-node src/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "sum-game": "./dist/bin/sum-game.js",
+    "minus-game": "./dist/bin/min-game.js",
+    "div-game": "./dist/bin/div-game.js",
+    "multiple-game": "./dist/bin/multiple-game.js"
+  },
+  "author": "Simon Porot",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

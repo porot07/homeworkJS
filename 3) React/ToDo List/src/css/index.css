@@ -1,0 +1,41 @@
+form.add-task {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form.add-task input {
+  font-size: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 2px solid rgb(204, 179, 34);
+  outline: none;
+  width: 100%;
+  margin-top: 20px;
+}
+
+form.add-task input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(204, 179, 34);
+}
+
+button {
+    font-size: 20px;
+    border: 1px solid rgb(204, 179, 34);
+    color: rgb(204, 179, 34);
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
